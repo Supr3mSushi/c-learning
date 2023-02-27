@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 // Instructions :
 // Sortir la suite de fibonacci en base definit par l'input
 // Jusqu'au deuxième input
@@ -25,8 +26,9 @@ int fibonacci(int n){
 
 int main(){
     int n;
-    printf("Veuillez choisir un entier positif n : %d &n", 0);
-    printf("Le %d-ième terme de la suite de Fibonacci est : %d\n", fibonacci(n));
+    printf("Veuillez choisir un entier positif n :");
+    scanf("%d", &n);
+    printf("Le %d -ième terme de la suite de Fibonacci est : %d\n", n, fibonacci(n));
+    system("pause");
     return 0;
 }
-
