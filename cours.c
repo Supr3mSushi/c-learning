@@ -101,15 +101,15 @@ int arythmetique (){
 // Pointeurs
 int maVariable = 10;
 
-printf("Valeur de ma variable: %d ", maVariable);
-printf("L'emplacsement de ma variable sur mon disque : %p ", &maVariable);
+int printf("Valeur de ma variable: %d ", maVariable);
+int printf("L'emplacsement de ma variable sur mon disque : %p ", &maVariable);
 
 int *monPointeur = NULL;
 
 monPointeur = &maVariable;
 
-sprintf("Le pointeur dirige vers l'espace : %p ", monPointeur);
-sprintf("Le pointeur dirige vers l'espace : %d ", monPointeur);
+int printf("Le pointeur dirige vers l'espace : %p ", monPointeur);
+int printf("Le pointeur dirige vers l'espace : %d ", monPointeur);
 
 int incre(int nombre){
     nombre += 1;
@@ -121,3 +121,20 @@ void incre(int nombre){
 }
 
 incre(&maVariable);
+
+
+int enterTheTabloid(){
+    int tableau[4];
+
+    tableau[0] = 50;
+    tableau[1] = 150;
+    tableau[2] = 200;
+    tableau[3] = 100;
+
+    for (i=0; i < 4; i++){
+        printf("%d \n", tableau[i]);
+    }
+
+    return 0;
+}
+
