@@ -1,7 +1,5 @@
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wformat-insufficient-args"
-#pragma clang diagnostic ignored "-Wformat-insufficient-args"
-#pragma clang diagnostic ignored "-Wformat-insufficient-args"
 #pragma clang diagnostic pop
 
 #include <stdio.h>
@@ -99,3 +97,27 @@ int arythmetique (){
 
 }
 
+
+// Pointeurs
+int maVariable = 10;
+
+printf("Valeur de ma variable: %d ", maVariable);
+printf("L'emplacsement de ma variable sur mon disque : %p ", &maVariable);
+
+int *monPointeur = NULL;
+
+monPointeur = &maVariable;
+
+sprintf("Le pointeur dirige vers l'espace : %p ", monPointeur);
+sprintf("Le pointeur dirige vers l'espace : %d ", monPointeur);
+
+int incre(int nombre){
+    nombre += 1;
+    return nombre
+}
+
+void incre(int nombre){
+    *nombre += 1;
+}
+
+incre(&maVariable);

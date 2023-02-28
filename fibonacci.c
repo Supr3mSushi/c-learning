@@ -4,6 +4,7 @@
 // Instructions :
 // Sortir la suite de fibonacci en base definit par l'input
 // Jusqu'au deuxième input
+
 // Sortir les nombres premiers jusqu'à l'input
 // Definir si l'input est impair ou paire, faire de meme pour savoir
 // Si c'est un multiple de 3
