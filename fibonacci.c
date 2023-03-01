@@ -30,6 +30,6 @@ int main(){
     printf("Veuillez choisir un entier positif n :");
     scanf("%d", &n);
     printf("Le %d -ième terme de la suite de Fibonacci est : %d\n", n, fibonacci(n));
-    system("pause");
     return 0;
+    system("pause");
 }
