@@ -152,29 +152,29 @@ fibonacci.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/fibonacci.c.s
 .PHONY : fibonacci.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
+market.obj: market.c.obj
+.PHONY : market.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.obj
-.PHONY : main.c.obj
+market.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/market.c.obj
+.PHONY : market.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+market.i: market.c.i
+.PHONY : market.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.i
-.PHONY : main.c.i
+market.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/market.c.i
+.PHONY : market.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+market.s: market.c.s
+.PHONY : market.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.s
-.PHONY : main.c.s
+market.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/market.c.s
+.PHONY : market.c.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... fibonacci.obj
 	@echo ... fibonacci.i
 	@echo ... fibonacci.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... market.obj
+	@echo ... market.i
+	@echo ... market.s
 .PHONY : help
 
 

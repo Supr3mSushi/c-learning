@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/mbmd2/CLionProjects/projet-c/fibonacci.c" "CMakeFiles/untitled.dir/fibonacci.c.obj" "gcc" "CMakeFiles/untitled.dir/fibonacci.c.obj.d"
-  "C:/Users/mbmd2/CLionProjects/projet-c/main.c" "CMakeFiles/untitled.dir/main.c.obj" "gcc" "CMakeFiles/untitled.dir/main.c.obj.d"
+  "C:/Users/mbmd2/CLionProjects/projet-c/market.c" "CMakeFiles/untitled.dir/market.c.obj" "gcc" "CMakeFiles/untitled.dir/market.c.obj.d"
   )
 
 # Targets to which this target links.
