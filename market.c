@@ -26,6 +26,7 @@ int main (){
         printf("%-20s%-20.2f%-10d%-20.2f%-20.2f\n", titre, prix_unitaire, quantite, total, prix_TTC);
 
         // Demander à l'utilisateur s'il veut continuer
+
         printf("Voulez-vous continuer (true/false) ? ");
         scanf("%d", &continuer);
     }

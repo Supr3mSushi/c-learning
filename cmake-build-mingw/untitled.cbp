@@ -28,6 +28,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbmd2/CLionProjects/projet-c/cmake-build-mingw/Makefile&quot;  VERBOSE=1 untitled"/>
@@ -47,6 +48,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbmd2/CLionProjects/projet-c/cmake-build-mingw/Makefile&quot;  VERBOSE=1 untitled/fast"/>
@@ -76,10 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mbmd2/CLionProjects/projet-c/fibonacci.c">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="C:/Users/mbmd2/CLionProjects/projet-c/market.c">
+		<Unit filename="C:/Users/mbmd2/CLionProjects/projet-c/sudoku-alea.c">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/mbmd2/CLionProjects/projet-c/CMakeLists.txt">

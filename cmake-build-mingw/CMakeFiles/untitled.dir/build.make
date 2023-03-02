@@ -68,49 +68,33 @@ include CMakeFiles/untitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled.dir/flags.make
 
-CMakeFiles/untitled.dir/fibonacci.c.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/fibonacci.c.obj: C:/Users/mbmd2/CLionProjects/projet-c/fibonacci.c
-CMakeFiles/untitled.dir/fibonacci.c.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbmd2\CLionProjects\projet-c\cmake-build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/fibonacci.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/fibonacci.c.obj -MF CMakeFiles\untitled.dir\fibonacci.c.obj.d -o CMakeFiles\untitled.dir\fibonacci.c.obj -c C:\Users\mbmd2\CLionProjects\projet-c\fibonacci.c
+CMakeFiles/untitled.dir/sudoku-alea.c.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/sudoku-alea.c.obj: C:/Users/mbmd2/CLionProjects/projet-c/sudoku-alea.c
+CMakeFiles/untitled.dir/sudoku-alea.c.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbmd2\CLionProjects\projet-c\cmake-build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/sudoku-alea.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/sudoku-alea.c.obj -MF CMakeFiles\untitled.dir\sudoku-alea.c.obj.d -o CMakeFiles\untitled.dir\sudoku-alea.c.obj -c C:\Users\mbmd2\CLionProjects\projet-c\sudoku-alea.c
 
-CMakeFiles/untitled.dir/fibonacci.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/fibonacci.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mbmd2\CLionProjects\projet-c\fibonacci.c > CMakeFiles\untitled.dir\fibonacci.c.i
+CMakeFiles/untitled.dir/sudoku-alea.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/sudoku-alea.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mbmd2\CLionProjects\projet-c\sudoku-alea.c > CMakeFiles\untitled.dir\sudoku-alea.c.i
 
-CMakeFiles/untitled.dir/fibonacci.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/fibonacci.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mbmd2\CLionProjects\projet-c\fibonacci.c -o CMakeFiles\untitled.dir\fibonacci.c.s
-
-CMakeFiles/untitled.dir/market.c.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/market.c.obj: C:/Users/mbmd2/CLionProjects/projet-c/market.c
-CMakeFiles/untitled.dir/market.c.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbmd2\CLionProjects\projet-c\cmake-build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/market.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/market.c.obj -MF CMakeFiles\untitled.dir\market.c.obj.d -o CMakeFiles\untitled.dir\market.c.obj -c C:\Users\mbmd2\CLionProjects\projet-c\market.c
-
-CMakeFiles/untitled.dir/market.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/market.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mbmd2\CLionProjects\projet-c\market.c > CMakeFiles\untitled.dir\market.c.i
-
-CMakeFiles/untitled.dir/market.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/market.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mbmd2\CLionProjects\projet-c\market.c -o CMakeFiles\untitled.dir\market.c.s
+CMakeFiles/untitled.dir/sudoku-alea.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/sudoku-alea.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mbmd2\CLionProjects\projet-c\sudoku-alea.c -o CMakeFiles\untitled.dir\sudoku-alea.c.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/fibonacci.c.obj" \
-"CMakeFiles/untitled.dir/market.c.obj"
+"CMakeFiles/untitled.dir/sudoku-alea.c.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-untitled.exe: CMakeFiles/untitled.dir/fibonacci.c.obj
-untitled.exe: CMakeFiles/untitled.dir/market.c.obj
+untitled.exe: CMakeFiles/untitled.dir/sudoku-alea.c.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mbmd2\CLionProjects\projet-c\cmake-build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mbmd2\CLionProjects\projet-c\cmake-build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

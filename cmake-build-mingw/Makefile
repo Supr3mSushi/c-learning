@@ -128,53 +128,29 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-fibonacci.obj: fibonacci.c.obj
-.PHONY : fibonacci.obj
+sudoku-alea.obj: sudoku-alea.c.obj
+.PHONY : sudoku-alea.obj
 
 # target to build an object file
-fibonacci.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/fibonacci.c.obj
-.PHONY : fibonacci.c.obj
+sudoku-alea.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-alea.c.obj
+.PHONY : sudoku-alea.c.obj
 
-fibonacci.i: fibonacci.c.i
-.PHONY : fibonacci.i
-
-# target to preprocess a source file
-fibonacci.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/fibonacci.c.i
-.PHONY : fibonacci.c.i
-
-fibonacci.s: fibonacci.c.s
-.PHONY : fibonacci.s
-
-# target to generate assembly for a file
-fibonacci.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/fibonacci.c.s
-.PHONY : fibonacci.c.s
-
-market.obj: market.c.obj
-.PHONY : market.obj
-
-# target to build an object file
-market.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/market.c.obj
-.PHONY : market.c.obj
-
-market.i: market.c.i
-.PHONY : market.i
+sudoku-alea.i: sudoku-alea.c.i
+.PHONY : sudoku-alea.i
 
 # target to preprocess a source file
-market.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/market.c.i
-.PHONY : market.c.i
+sudoku-alea.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-alea.c.i
+.PHONY : sudoku-alea.c.i
 
-market.s: market.c.s
-.PHONY : market.s
+sudoku-alea.s: sudoku-alea.c.s
+.PHONY : sudoku-alea.s
 
 # target to generate assembly for a file
-market.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/market.c.s
-.PHONY : market.c.s
+sudoku-alea.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-alea.c.s
+.PHONY : sudoku-alea.c.s
 
 # Help Target
 help:
@@ -185,12 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled
-	@echo ... fibonacci.obj
-	@echo ... fibonacci.i
-	@echo ... fibonacci.s
-	@echo ... market.obj
-	@echo ... market.i
-	@echo ... market.s
+	@echo ... sudoku-alea.obj
+	@echo ... sudoku-alea.i
+	@echo ... sudoku-alea.s
 .PHONY : help
 
 
