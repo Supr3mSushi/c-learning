@@ -5,14 +5,7 @@
 
 
 /*
-Pour l'exercice vous aurez besoin de generer des entiers aléatoire : rand() renvoit un entier aléatoire.
-il s'utilise : rand() % NOMBREMAX + 1
-Pour un entier aléatoire entre 0 et 1 il faut donc faire rand() %2
-voir dans la methode main.
-*/
-
-/*
-Ecrire la fonction generer(), elle prend en paramètre la grille et renvoie le nombre d'éléments non nuls
+Fonction qui prend en paramètre la grille et renvoie le nombre d'éléments non nuls
 */
 
 void generer(int grid[9][9]) {
@@ -34,13 +27,10 @@ void generer(int grid[9][9]) {
     printf("Nombre d'elements non nuls : %d\n", nombreNonNuls);
 }
 
-// Ce lien vous sera utile : https://www.geeksforgeeks.org/pass-2d-array-parameter-c/
-
-
 /*
-Écrire une fonction saisir() qui demande à l’utilisateur de saisir au clavier les indices i et j et la valeur v à placer à l’emplacement (i,j).
-La fonction doit vérifier la validité des indices et de la valeur.
-Si la case n’est pas occupée, la valeur doit être placée dans la grille. remplissage est alors incrémentée
+Fonction qui demande à l’utilisateur de saisir au clavier les indices i et j et la valeur v à placer à l’emplacement.
+La fonction vérifie la validité des indices et de la valeur.
+Si la case n’est pas occupée, la valeur doit être placée dans la grille.
 */
 
 void saisir(int grid[9][9]) {
@@ -85,10 +75,8 @@ void saisir(int grid[9][9]) {
 }
 
 /*
-Écrire la fonction verifierLigneColonne() qui prend en paramètre un numéro et un sens (HORIZ ou VERT)
-qui vérifie que la ligne ou la colonne (suivant les cas) numéro est bien remplie.
-On pourra utiliser un tableau intermédiaire pour vérifier cela. La fonction retournera 1 si tout s’est bien passé, 0 sinon.
- Les constantes HORIZ de valeur 0 et VERT de valeur 1 sont à définir.
+Fonction qui prend en paramètre un numéro et un sens qui
+vérifie que la ligne ou la colonne est bien remplie.
 */
 
 int verifierLigneColonne(int grid[9][9], int value, int sens) {
@@ -117,7 +105,7 @@ int verifierLigneColonne(int grid[9][9], int value, int sens) {
 }
 
 /*
-Écrire la fonction verifierRegion() qui prend en paramètre deux indices k et l qui correspondent à la région (k,l)
+Fonction qui prend en paramètre deux indices k et l qui correspondent à la région
 et qui renvoie 1 si la région est correctement remplie, 0 sinon.
 */
 
@@ -177,11 +165,10 @@ int verifierGrille(int grid[9][9]) {
 }
 
 /*
-Écrire le programme principal, en supposant que la seule condition d’arrêt est la réussite du sudoku (ce test ne devra être fait que si nécessaire)
+Fonction principale qui arrête le jeu si le sudoku est réussi
  */
 
 int main(){
-    // Ne pas toucher le code entre les commentaires
     srand(time(NULL));
     int i, j;
     int solution[9][9];
@@ -207,7 +194,6 @@ int main(){
 
     printf("-------------------------------");
     printf("\n");
-    // Toucher le code entre les commentaires
 
     int valid = 1;
     while(valid == 1) {
@@ -218,7 +204,6 @@ int main(){
 
     printf("Mazel tov, vous avez terminé le sudoku\n");
 
-    // Ne pas toucher au code ci dessous
     system("pause");
     return 0;
 }
