@@ -68,28 +68,28 @@ include CMakeFiles/untitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled.dir/flags.make
 
-CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj: C:/Users/mbmd2/CLionProjects/projet-c/sudoku-grille-alea.c
-CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbmd2\CLionProjects\projet-c\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj -MF CMakeFiles\untitled.dir\sudoku-grille-alea.c.obj.d -o CMakeFiles\untitled.dir\sudoku-grille-alea.c.obj -c C:\Users\mbmd2\CLionProjects\projet-c\sudoku-grille-alea.c
+CMakeFiles/untitled.dir/sudoku.c.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/sudoku.c.obj: C:/Users/mbmd2/CLionProjects/projet-c/sudoku.c
+CMakeFiles/untitled.dir/sudoku.c.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbmd2\CLionProjects\projet-c\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/sudoku.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/sudoku.c.obj -MF CMakeFiles\untitled.dir\sudoku.c.obj.d -o CMakeFiles\untitled.dir\sudoku.c.obj -c C:\Users\mbmd2\CLionProjects\projet-c\sudoku.c
 
-CMakeFiles/untitled.dir/sudoku-grille-alea.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/sudoku-grille-alea.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mbmd2\CLionProjects\projet-c\sudoku-grille-alea.c > CMakeFiles\untitled.dir\sudoku-grille-alea.c.i
+CMakeFiles/untitled.dir/sudoku.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/sudoku.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mbmd2\CLionProjects\projet-c\sudoku.c > CMakeFiles\untitled.dir\sudoku.c.i
 
-CMakeFiles/untitled.dir/sudoku-grille-alea.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/sudoku-grille-alea.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mbmd2\CLionProjects\projet-c\sudoku-grille-alea.c -o CMakeFiles\untitled.dir\sudoku-grille-alea.c.s
+CMakeFiles/untitled.dir/sudoku.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/sudoku.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\mbmd2\CLionProjects\projet-c\sudoku.c -o CMakeFiles\untitled.dir\sudoku.c.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj"
+"CMakeFiles/untitled.dir/sudoku.c.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-untitled.exe: CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj
+untitled.exe: CMakeFiles/untitled.dir/sudoku.c.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp

@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "sudoku-grille-alea.c",
+			"path" : "sudoku.c",
 			"sourceGroupIndex" : 0
 		}
 	],

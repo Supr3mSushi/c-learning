@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mbmd2/CLionProjects/projet-c/sudoku-grille-alea.c">
+		<Unit filename="C:/Users/mbmd2/CLionProjects/projet-c/sudoku.c">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/mbmd2/CLionProjects/projet-c/CMakeLists.txt">
