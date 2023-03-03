@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/sudoku-alea.c.obj"
-  "CMakeFiles/untitled.dir/sudoku-alea.c.obj.d"
+  "CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj"
+  "CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj.d"
   "libuntitled.dll.a"
   "untitled.exe"
   "untitled.exe.manifest"

@@ -3,4 +3,4 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled sudoku-alea.c)
+add_executable(untitled sudoku-grille-alea.c)

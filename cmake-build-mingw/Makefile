@@ -128,29 +128,29 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-sudoku-alea.obj: sudoku-alea.c.obj
-.PHONY : sudoku-alea.obj
+sudoku-grille-alea.obj: sudoku-grille-alea.c.obj
+.PHONY : sudoku-grille-alea.obj
 
 # target to build an object file
-sudoku-alea.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-alea.c.obj
-.PHONY : sudoku-alea.c.obj
+sudoku-grille-alea.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-grille-alea.c.obj
+.PHONY : sudoku-grille-alea.c.obj
 
-sudoku-alea.i: sudoku-alea.c.i
-.PHONY : sudoku-alea.i
+sudoku-grille-alea.i: sudoku-grille-alea.c.i
+.PHONY : sudoku-grille-alea.i
 
 # target to preprocess a source file
-sudoku-alea.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-alea.c.i
-.PHONY : sudoku-alea.c.i
+sudoku-grille-alea.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-grille-alea.c.i
+.PHONY : sudoku-grille-alea.c.i
 
-sudoku-alea.s: sudoku-alea.c.s
-.PHONY : sudoku-alea.s
+sudoku-grille-alea.s: sudoku-grille-alea.c.s
+.PHONY : sudoku-grille-alea.s
 
 # target to generate assembly for a file
-sudoku-alea.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-alea.c.s
-.PHONY : sudoku-alea.c.s
+sudoku-grille-alea.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku-grille-alea.c.s
+.PHONY : sudoku-grille-alea.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled
-	@echo ... sudoku-alea.obj
-	@echo ... sudoku-alea.i
-	@echo ... sudoku-alea.s
+	@echo ... sudoku-grille-alea.obj
+	@echo ... sudoku-grille-alea.i
+	@echo ... sudoku-grille-alea.s
 .PHONY : help
 
 
