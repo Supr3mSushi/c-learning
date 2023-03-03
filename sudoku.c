@@ -69,7 +69,7 @@ void saisir(int grid[9][9]) {
         if(grid[i][j] == 0) {
             grid[i][j] = v;
         } else {
-            printf("Erreur ! Cette case est déjà prise. Veuillez en choisir un autre\n");
+            printf("Erreur ! Cette case est deja prise. Veuillez en choisir un autre\n");
         }
     }
 }
