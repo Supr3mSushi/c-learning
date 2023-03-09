@@ -7,8 +7,8 @@
 /*
 Gen (réponse du mastermind) --> [1,2,3,4] (il prend des chiffres de 1 à 6 au hasard)
 Afficher (passer le tableau dedans) --> donne un tableau avec des lettres à la place des chiffres (ex: B = 1, A =2, etc)
-Saisir --> prend 4 valeurs entrées par l'utilisateur qui sont mises dans un tableau après être transformé ( B =1, A = 2)
-Rangement --> prend deux paramètres (tab, x) ->  le tableau[0,1,1,2] (0 -> ., 1-> W, 2->R)
+Saisir --> prend 4 valeurs entrées par l'utilisateur qui sont mises dans un tableau après être transformé ( B = 1, A = 2)
+Rangement --> prend deux paramètres (tab, x) -> le tableau[0,1,1,2] (0 -> ., 1-> W, 2->R)
 */
 
 
@@ -27,10 +27,14 @@ void generer(int tab[4]) {
         tab[i] = n; // ajoute le nombre au tableau
     }
 
-    for (i = 0; i < 4; i++) {
+    /*for (i = 0; i < 4; i++) {
         printf("%d ", tab[i]); // affiche les nombres générés
-    }
-
+    }*/
+    printf("\n");
+    printf("+---------------------------------+\n");
+    printf("|  Bienvenue sur le Mastermind !  |\n");
+    printf("|       A vous de jouer !         |\n");
+    printf("+---------------------------------+");
     printf("\n");
 }
 
@@ -38,25 +42,30 @@ void generer(int tab[4]) {
 // Fonction afficher()
 
 void afficher(int tab[4]){
+    printf("\n");
+    printf("+----------+\n");
+    printf("| Solution |\n");
     for(int i = 0; i < 4; i++){
         switch(tab[i]){
             case 1:
-                printf("P ");
+                printf("|P|");
                 break;
             case 2:
-                printf("B ");
+                printf("|B|");
                 break;
             case 3:
-                printf("M ");
+                printf("|M|");
                 break;
             case 4:
-                printf("Y ");
+                printf("|Y|");
                 break;
             case 5:
-                printf("O ");
+                printf("|O|");
                 break;
             case 6:
-                printf("G ");
+                printf("|G|\n");
+                printf("+----------+");
+                printf("\n");
                 break;
         }
     }
@@ -64,40 +73,53 @@ void afficher(int tab[4]){
 }
 
 
-
 // Fonction saisir()
+
 void saisir(int tab[4]){
     int i;
     for(i = 0; i < 4; i++){
+        printf("\n \n");
+        printf("Voici les couleurs disponibles : \n");
+        printf("P (Pink) | B (Blue) | M (Magenta) | Y (Yellow) | O (Orange) | G (Green) \n");
+        printf("\n");
         printf("Entrez une couleur : ");
-        scanf("%d", &tab[i]);
+        scanf("%c", &tab[i]);
+        getchar();
+        printf("----------------------------------------");
+
     }
+    printf("\n");
 }
+
 
 // Fonction rangeminator()
 
+void rangeminator(int tab[4], int x){
+    int i;
+    for(i = 0; i < 4; i++){
+        if(tab[i] == x){
+            tab[i] = 1;
+        }
+        else{
+            tab[i] = 0;
+        }
+    }
+}
 
 
-
+// Fonction main()
 
 int main(){
     srand(time(NULL));
     int tab[4];
     generer(tab);
     afficher(tab);
-    /*printf("A vous de jouer !");
-    printf("Voici les couleurs disponibles : \n");
-    printf("1 = P, 2 = B, 3 = M, 4 = Y, 5 = O, 6 = G \n");
-    printf("-------------------------------");
-    printf("\n");
-    printf("Voici les couleurs que vous avez choisi : \n");
-    printf("1 = P, 2 = B, 3 = M, 4 = Y, 5 = O, 6 = G \n");
-    printf("-------------------------------");
-    printf("\n");*/
+    saisir(tab);
+
+
+
 
     system("pause");
     return 0;
-
-
 }
 
