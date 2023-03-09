@@ -128,29 +128,29 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-sudoku.obj: sudoku.c.obj
-.PHONY : sudoku.obj
+mastermind.obj: mastermind.c.obj
+.PHONY : mastermind.obj
 
 # target to build an object file
-sudoku.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku.c.obj
-.PHONY : sudoku.c.obj
+mastermind.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/mastermind.c.obj
+.PHONY : mastermind.c.obj
 
-sudoku.i: sudoku.c.i
-.PHONY : sudoku.i
+mastermind.i: mastermind.c.i
+.PHONY : mastermind.i
 
 # target to preprocess a source file
-sudoku.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku.c.i
-.PHONY : sudoku.c.i
+mastermind.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/mastermind.c.i
+.PHONY : mastermind.c.i
 
-sudoku.s: sudoku.c.s
-.PHONY : sudoku.s
+mastermind.s: mastermind.c.s
+.PHONY : mastermind.s
 
 # target to generate assembly for a file
-sudoku.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/sudoku.c.s
-.PHONY : sudoku.c.s
+mastermind.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/mastermind.c.s
+.PHONY : mastermind.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled
-	@echo ... sudoku.obj
-	@echo ... sudoku.i
-	@echo ... sudoku.s
+	@echo ... mastermind.obj
+	@echo ... mastermind.i
+	@echo ... mastermind.s
 .PHONY : help
 
 

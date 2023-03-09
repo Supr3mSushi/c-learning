@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/sudoku.c.obj"
-  "CMakeFiles/untitled.dir/sudoku.c.obj.d"
+  "CMakeFiles/untitled.dir/mastermind.c.obj"
+  "CMakeFiles/untitled.dir/mastermind.c.obj.d"
   "libuntitled.dll.a"
   "untitled.exe"
   "untitled.exe.manifest"
